@@ -1,11 +1,17 @@
-##include <stdio.h>
+#include <studio.h>
+#include <string.h>
 
 /**
+ * main - Main function of my project
  *
- * Return: Always 0 (Succesfull)
+ *
+ * Return: return 0 everytime
  */
-int main(void)
+int main (void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0)
+	char displayed[52];
+
+	strcpy(displayed, "\"Programming is like building a multilingual puzzule");
+	puts(displayed);
+	return (0);
 }

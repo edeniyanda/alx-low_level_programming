@@ -1,17 +1,11 @@
 #include <studio.h>
-#include <string.h>
 
 /**
- * main - Main function of my project
- *
- *
- * Return: return 0 everytime
+ * main - prints the phrase "Programming is like building a multilingual puzzule
+ * Return: 0 if exited properly, non-zero otherwise
  */
-int main (void)
+int main(void)
 {
-	char displayed[52];
-
-	strcpy(displayed, "\"Programming is like building a multilingual puzzule");
-	puts(displayed);
+	puts("Programming is like building a multilingual puzzule");
 	return (0);
 }

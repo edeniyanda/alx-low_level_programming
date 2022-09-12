@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all d numbers of base 16 in lowercase, followed by a new line
+ * main - prints all the numbers of base 16 in lowercase,
+ * followed by a new line
  * Description: using the main fuction 
  * this programs prints "Numbers in base 16 in lower case"
  * Return 0

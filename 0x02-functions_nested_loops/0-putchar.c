@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * main - prints _putchar, followed by a new line
- * Return: Always 0 (Succes)
+ * main - print putchar
+ * Return: always 0
  */
 int main(void)
 {
 	putchar('');
-
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -17,5 +16,6 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 
-	Return(0);
+	return (0);
+
 }

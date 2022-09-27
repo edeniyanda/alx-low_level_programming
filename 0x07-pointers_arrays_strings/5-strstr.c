@@ -21,8 +21,13 @@ char *_strstr(char *haystack, char *needle)
 			}
 		}
 		if (!*needle)
+		{
 			return (result);
 		}
 		needle = fneedle;
 		result++;
+		haystack = result;
+	}
+	return (0)
+}
 

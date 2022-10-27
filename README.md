@@ -1,1 +1,2 @@
-This is my first readme
+0x14. C - Bit manipulation
+
